@@ -1,0 +1,61 @@
+.Volunteer{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(1, 1, 1, 1.1);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid #000000; 
+    
+  }
+  h1{
+    text-align: center;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #000000; 
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    border-bottom: 2px solid #000000; 
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  td a {
+    display: inline-block;
+  }
+  
+  td img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  th:first-child, td:first-child {
+    border-left: none;
+  }
+  
+  th:last-child, td:last-child {
+    border-right: none;
+  }
